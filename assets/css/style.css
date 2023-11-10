@@ -755,13 +755,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display:flex;
     align-items:center;
     justify-content:center;
-    height:50px;
     text-transform:capitalize;
-    margin-top: 3px;
-    background: green;
-    border: 1px solid black;
     cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s;
     -moz-transition:.5s;
     -ms-transition:.5s;
@@ -773,21 +768,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
+    color: black;
     border-radius: 0px;
-    font-size:14px;
+    font-size:3vh;
+    font-weight: none;
+    background-color: white;
     -webkit-transition: .5s;
     -moz-transition:.5s;
     -ms-transition:.5s;
     -o-transition:.5s;
     transition: .5s;
-
-}
-.single-contact-btn:hover{
-    background: blue;
-    border: 1px solid black;
+  }
+  .contact-form .single-contact-btn .contact-btn:hover{
+    background: green;
+    border: 2px solid black;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
-}
+  }
+
 
 /*--contct button--*/
 
