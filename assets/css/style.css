@@ -337,7 +337,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: green;}
 /*.education-horizontal-timeline*/
 .education-horizontal-timeline .col-sm-4 {padding:0 0px;}
 
-.single-horizontal-timeline .experience-time h3{margin: 30px;text-transform: inherit;text-align: justify; font-size: 2.5vh; font-family: inherit; font-weight: bold;}
+.single-horizontal-timeline .experience-time h3{margin: 30px;text-transform: inherit;text-align: justify; font-size: 2.5vh; font-family: inherit;}
 .single-horizontal-timeline .experience-time h3 span
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
@@ -380,7 +380,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
-.logo1{width: 50vh;text-align: center;margin-left: 35%;}
+.logo1{
+  display: flex;
+  justify-content: center;
+  position: relative;box-shadow: 0 20px 20px rgba(14,25,80,.30);
+}
+
 .single-progress-txt {
     display: flex;
 }
@@ -638,6 +643,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .5s;
 }
 .isotope .item1 img{
+  display: flex;
+  justify-content: center;
   padding-left: 0vh;
   padding-right: 4vh;
     height: 73.5vh;
@@ -728,16 +735,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .card-img-top{height:40vh;}
 .card{height: 70vh;padding-top: 0vh}
 .GGM{background-color: #f9fbfd;}
-.GGM p{margin-left: 15%; margin-right: 15%;text-transform: inherit;text-align: justify; font-size: 2.7vh; font-family: inherit; font-weight: bold;}
-.GGM img{
-display: flex;
-text-align: center;
-justify-content: center;
-margin-left: 35%;
-background-position: center;
-height:80vh;
-margin-bottom: 100px;}
-.GGM:hover img{
+.GGM p
+{display: flex;
+justify-content: center;text-transform: inherit;text-align: justify; font-size: 2.7vh; font-family: inherit; margin-left: 5%;margin-right: 5%;}
+.GGM1{
+    display: flex;
+    justify-content: center;
+    position: relative;box-shadow: 0 20px 20px rgba(14,25,80,.30);}
+.GGM1:hover{
    -webkit-transform:scale(1.3);
   -moz-transform:scale(1.3);
   -ms-transform:scale(1.3);
