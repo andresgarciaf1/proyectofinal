@@ -610,11 +610,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
-.portfolio {
+.portfolio {display: flex;justify-content: center;
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
-.portfolio1 {
+.portfolio1 {display: flex;justify-content: center;
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
@@ -646,8 +646,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   display: flex;
   justify-content: center;
   padding-left: 0vh;
-  padding-right: 4vh;
-    height: 73.5vh;
+  padding-right: 0vh;
+  width:40vh;
+  height:550px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
