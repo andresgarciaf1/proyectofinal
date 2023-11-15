@@ -109,7 +109,7 @@ nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
 }
-.logoportada{width: 11vh; margin-top: 0vh;}
+.logoportada{width: 10vh; margin-top: none;}
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
@@ -146,7 +146,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
 }
 nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: green ;}
@@ -174,7 +174,7 @@ nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
     border: 1px solid green;
-    padding: 10px;
+    padding: 0px;
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: green;}
@@ -208,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: green;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 6vh;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
@@ -720,6 +720,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .clients {padding-top: 50px;}
 .clients-area {
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 10vh;
 }
@@ -732,8 +733,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height: auto;
     border-radius:0;
 }
-.card-text{font-size: 1.5vh;}
-.card-img-top{height:40vh;}
+.cardscentradas{display: flex;
+justify-content: center;}
+.card-text{font-size: 1.5vh;display: flex;}
+.card-img-top{height:40vh;display: flex;justify-content: center;}
 .card{height: 70vh;padding-top: 0vh}
 .GGM{background-color: #f9fbfd;}
 .GGM p
