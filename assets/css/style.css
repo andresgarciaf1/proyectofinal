@@ -606,7 +606,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
-.mapa{text-align: center;}
+.mapa{
+  overflow: hidden;
+  padding-bottom: 80%;
+  position: relative;
+  height: 0;
+}
+.mapa iframe{
+  left:0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
@@ -647,6 +659,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   justify-content: center;
   padding-left: 0vh;
   padding-right: 0vh;
+  padding-bottom: 5vh;
+  padding-top: 0vh;
   width:40vh;
   height:73.5vh;
     -webkit-transition: .5s;
@@ -736,7 +750,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .cardscentradas{display: flex;
 justify-content: center;}
 .card-text{font-size: 1.5vh;display: flex;}
-.card-img-top{height:40vh;display: flex;justify-content: center;}
+.card-img-top{height:40vh; width: 40vh;display: flex;justify-content: center;}
 .card{height: 70vh;padding-top: 0vh}
 .GGM{background-color: #f9fbfd;}
 .GGM p
