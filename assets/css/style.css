@@ -109,7 +109,7 @@ nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
 }
-.logoportada{width: 10vh; margin-top: none;}
+.logoportada{width: 9vh; margin-top: none;}
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
@@ -208,10 +208,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: green;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 6vh;
+    font-size: 5vh;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 .header-text h2 span {color: green;}
 .header-text p {
